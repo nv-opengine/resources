@@ -1,0 +1,15 @@
+plugins {
+    id 'java-library'
+}
+
+dependencies {
+}
+
+group 'com.github.opengine'
+
+repositories {
+    jcenter()
+    maven {
+        url 'https://jitpack.io'
+    }
+}
